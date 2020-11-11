@@ -34,6 +34,7 @@ function! g:PF_InitaliseAll()
 	call g:PF_InitaliseCommands("(.*)\\.sh", "shell")
 	call g:PF_InitaliseCommands("(.*)\\.py", "py")
 	call g:PF_InitaliseCommands("(.*)\\.txt", "txt")
+	call g:PF_InitaliseCommands("(.*)\\.pl", "pl")
 endfunction
 
 "	Abort load (with warning) if s:PF_path_dir doesnt exist
