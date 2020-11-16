@@ -31,7 +31,8 @@ let s:PF_curloc_fdl = 0
 
 "	TODO: 2020-11-08T20:54:53AEDT Read filter regex / prefix from parameters file -> or list at top of script (is better than here)
 function! g:PF_InitaliseAll()
-	call g:PF_InitaliseCommands("(.*)\\.sh", "shell")
+	call g:PF_InitaliseCommands("(.*)\\.sh", "sh")
+	call g:PF_InitaliseCommands("(.*)\\.zsh", "zsh")
 	call g:PF_InitaliseCommands("(.*)\\.py", "py")
 	call g:PF_InitaliseCommands("(.*)\\.txt", "txt")
 	call g:PF_InitaliseCommands("(.*)\\.pl", "pl")
