@@ -8,7 +8,7 @@
 let g:PF_loaded = 1
 let s:PF_printdebug = 0
 
-"	Get contents of mld_PF from env
+"	Get path of Pf directory, mld_PF, from env
 let s:PF_path_dir = $mld_PF 
 let s:PF_file_criterion = ".*\.txt"
 
